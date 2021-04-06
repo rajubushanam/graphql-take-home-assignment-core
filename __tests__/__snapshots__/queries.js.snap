@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Queries should send 200 response when token is sent 1`] = `
+Object {
+  "data": null,
+  "errors": Array [
+    [GraphQLError: dataSources.retsAPI.getPropertiesByCity is not a function],
+  ],
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;

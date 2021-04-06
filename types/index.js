@@ -1,4 +1,8 @@
 module.exports = `
+    type Query {
+        getListing(city: String!): [Listing!]!
+    }
+
     type Listing {
         favoriteCount: Int
         privateRemarks: String

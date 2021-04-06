@@ -7,14 +7,19 @@
     "node": "^14"
   },
   "scripts": {
-    "test": "jest",
-    "start": "node index.js"
+    "test": "jest --watch",
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "apollo-datasource-rest": "^0.11.0",
     "apollo-server-express": "2.22.2",
+    "apollo-server-testing": "^2.22.2",
+    "dotenv": "^8.2.0",
     "express": "4.17.1",
-    "jest": "26.6.3"
+    "graphql": "^15.5.0",
+    "jest": "26.6.3",
+    "nodemon": "^2.0.7"
   }
 }
