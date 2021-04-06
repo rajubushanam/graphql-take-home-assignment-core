@@ -1,7 +1,3 @@
-Please read the PLEASE_READ_FIRST.md first.
-
-Please document your code & design decisions here.
-
 # Summary
 I have been using Graphql very recently so I had to spend some time to do research and read documentation on apollo docs. I was able to figure out few minute things like how to call outside Rest calls from inside the graphql server. But overall it was a good experience building the graphql server from scratch.
 
